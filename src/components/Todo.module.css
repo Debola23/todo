@@ -1,0 +1,84 @@
+body{
+  background-color: hsl(0, 0%, 10%);  
+}
+.Todo{
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+.Todo h1{
+    text-align: center;
+}
+input[type="text"]{
+    font-size: 1rem;
+}
+.input{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.ibox{
+    width: 24rem;
+    text-align: center;
+    outline: none;
+    border:1px solid black;
+}
+.add{
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: center;
+    background: #00a600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    color: white;
+    margin-left: 5px;
+}
+.delete{
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: center;
+    background: #a60000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    color: white;
+    margin-left: 10px;
+}
+.moveUp{
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #95a600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    color: white;
+    cursor: pointer;
+}
+.moveDown{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: #95a600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    color: white;
+    cursor: pointer;
+}
+ol{
+    padding: 0;
+}
+ol li{
+    font-size: 1.369rem;
+    padding: 10px;
+    margin-top: 1.5rem;
+    background-color: hsl(0, 0%, 97%);
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.text{
+    flex: 1;
+}
